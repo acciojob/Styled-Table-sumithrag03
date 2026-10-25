@@ -6,8 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+	 <title>Styled Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fb;
+            text-align: center;
+        }
+
+        table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #cccccc;
+            padding: 12px;
+            text-align: center;
+        }
+
+        thead {
+            background-color: #2a7ae2;
+            color: white;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #eaf2f8;
+        }
+
+        tbody tr:hover {
+            background-color: #d6eaf8;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+    </style>
 </head>
 <body>
+	<h1>Student Exam Results</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Maths</th>
+                <th>Science</th>
+                <th>English</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Arun</td>
+                <td>85</td>
+                <td>90</td>
+                <td>88</td>
+                <td>263</td>
+            </tr>
+            <tr>
+                <td>Priya</td>
+                <td>92</td>
+                <td>95</td>
+                <td>91</td>
+                <td>278</td>
+            </tr>
+            <tr>
+                <td>Kumar</td>
+                <td>78</td>
+                <td>82</td>
+                <td>80</td>
+                <td>240</td>
+            </tr>
+            <tr>
+                <td>Divya</td>
+                <td>88</td>
+                <td>86</td>
+                <td>94</td>
+                <td>268</td>
+            </tr>
+        </tbody>
+    </table>
     <!-- add table here -->
 
         
